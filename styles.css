@@ -1,1 +1,73 @@
-/* your code here */
+body{
+	display:flex;
+	justify-content:center;
+	font-family:sans-serif;
+	background-color:#32CD32;
+}
+.product{
+	display:flex;
+	gap:15px;
+	width:600px;
+	height:500px;
+	background-color:white;
+}
+.controls{
+	padding:10px;
+	color:white;
+	display:flex;
+	justify-content:space-between;
+}
+.photo-album{
+	display:flex;
+	list-style-type:none;
+}
+.photo-container{
+	background-color:white;
+	display:flex;
+	flex-direction:column;
+	margin-left:-30px;
+	box-shadow:5px 5px 5px grey;
+}
+.list{
+	display:flex;
+	justify-content:center;
+	gap:3px;
+	list-style-type:none;
+}
+.img1{
+	width:50px;
+	height:50px;
+	border:1px solid grey;
+}
+.img2{
+	border:1px solid grey;
+	width:30px;
+	height:30px;
+}
+.img3{
+	border:none;
+	width:30px;
+	height:30px;
+}
+.price{
+	color:red;
+	font-size:40px;
+}
+.photo-main{
+	background-color:#00FF00;
+}
+.title{
+	display:flex;
+	flex-direction:column;
+	gap:0px;
+}
+.btn{
+	background-color:red;
+	color:white;
+	width:160px;
+	height:40px;
+	border-radius:5px;
+	border:none;
+	box-shadow:1px 1px 8px black;
+	text-transform:uppercase;
+}
